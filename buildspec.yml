@@ -15,7 +15,7 @@ phases:
   build:
     commands:
       - echo Building the Docker image...
-      - docker build -t first .
+      - docker build -t newrepo .
 
       - echo Tagging the Docker image...
       - docker tag newrepo:latest 861276104826.dkr.ecr.eu-north-1.amazonaws.com/newrepo:latest
